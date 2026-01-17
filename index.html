@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -53,7 +55,8 @@
             <div class="row align-items-center">
 
                 <!-- LEFT SOCIAL -->
-                <div class="col-lg-1 d-none d-lg-flex hero-social flex-column align-items-center">
+                <div class="col-lg-1 d-none d-lg-flex hero-social flex-column align-items-center" data-aos="zoom-in"
+                    data-aos-duration="1500" data-aos-delay="300">
                     <span class="follow-text">Follow On</span>
                     <div class="line"></div>
                     <a href="#"><i class="ri-facebook-fill"></i></a>
@@ -62,7 +65,8 @@
                 </div>
 
                 <!-- CENTER SPLINE (bigger now) -->
-                <div class="col-lg-6 text-center hero-img">
+                <div class="col-lg-6 text-center hero-img" data-aos="zoom-in" data-aos-duration="1500"
+                    data-aos-delay="300">
                     <div class="spline-container">
                         <spline-viewer url="https://prod.spline.design/gZnM77cvLV7ghxdQ/scene.splinecode">
                         </spline-viewer>
@@ -70,7 +74,7 @@
                 </div>
 
                 <!-- RIGHT TEXT (slightly smaller) -->
-                <div class="col-lg-5 hero-content">
+                <div class="col-lg-5 hero-content " data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
                     <span class="small-title">Hello, I'm</span>
                     <h1>Muhammad Qasim</h1>
 
@@ -172,12 +176,16 @@
     <!-- ABOUT SECTION -->
     <section class="about" id="about">
 
-        <h2 class="container text-center About_heading mb-5">About Me</h2>
+        <h2 class="container text-center About_heading mb-5" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
+            About Me
+        </h2>
+
         <div class="container">
             <div class="row align-items-center">
 
                 <!-- LEFT IMAGE -->
-                <div class="col-lg-5 text-center">
+                <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="0">
                     <div class="about-img">
                         <img src="Assets/ChatGPT Image Jan 15, 2026, 02_29_57 PM.png" alt="">
                     </div>
@@ -185,35 +193,36 @@
 
                 <!-- RIGHT CONTENT -->
                 <div class="col-lg-7">
+                    <h2 data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        I'm a Web Designer & Developer
+                    </h2>
 
-                    <h2>I'm a Web Designer & Developer</h2>
 
-                    <p class="about-text">
+                    <p class="about-text" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
                         I'm a New York, USA–based product designer with a focus on web design, UX/UI design,
                         illustration, and visual development.
-                        I have a diverse range of experience working across various fields and industries.
                     </p>
-
-                    <p class="about-text">
+                    <p class="about-text" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
                         With 07 years experience as a professional web designer, I have acquired the skills and
                         knowledge necessary to make your project a success!
                     </p>
 
+
                     <!-- STATS -->
                     <div class="row stats mt-4">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <div class="stat-box">
                                 <h3>07</h3>
                                 <span>Years Of Experience</span>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <div class="stat-box">
                                 <h3>1.2K</h3>
                                 <span>Complete Projects</span>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <div class="stat-box">
                                 <h3>1K</h3>
                                 <span>Satisfied Customers</span>
@@ -223,13 +232,16 @@
 
                     <!-- BUTTONS -->
                     <div class="about-buttons mt-4">
-                        <a href="#contact" class="hire-btn">Hire Me</a>
+                        <a href="#contact" class="hire-btn" data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos-delay="1000">
+                            Hire Me
+                        </a>
 
-                        <a href="Assets/Muhammad_Qasim_Resume.pdf"
-   class="cv-btn"
-   download="Muhammad_Qasim_Resume.pdf">
-   Download CV
-</a>
+                        <a href="Assets/Muhammad_Qasim_Resume.pdf" class="cv-btn" download data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-delay="1200">
+                            Download CV
+                        </a>
+
 
                     </div>
 
@@ -241,9 +253,11 @@
 
     <section class="resume-light" id="resume">
         <div class="container text-center">
-            <h2 class="resume-title">My Resume</h2>
-            <p class="resume-sub">Combination Of Skills & Experience</p>
-            <div class="resume-tabs">
+            <h2 class="resume-title" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="0">My Resume</h2>
+            <p class="resume-sub" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">Combination Of Skills & Experience</p>
+            <div class="resume-tabs" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                 <button class="tab-btn active" data-tab="education">
                     <i class="ri-book-open-line"></i> Education
                 </button>
@@ -256,7 +270,8 @@
             </div>
 
             <!-- Education Timeline Light -->
-            <div class="timeline-light" id="education">
+            <div class="timeline-light" id="education" data-aos="zoom-in" data-aos-duration="1400"
+            data-aos-delay="0">
 
                 <!-- Vertical line -->
                 <div class="timeline-line">
@@ -304,7 +319,8 @@
             </div>
 
             <!-- Experience  Timeline Light -->
-            <div class="experience-timeline-light" id="experience">
+            <div class="experience-timeline-light" id="experience" data-aos="zoom-in" data-aos-duration="1400"
+            data-aos-delay="0">
 
                 <!-- Vertical line -->
                 <div class="timeline-line">
@@ -476,13 +492,16 @@
     <!-- SERVICES -->
     <section class="services-section" id="services">
         <div class="container text-center">
-            <h2 class="services-title">Services</h2>
-            <p class="services-sub">What I Provide</p>
+            <h2 class="services-title"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">Services</h2>
+            <p class="services-sub"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">What I Provide</p>
 
 
             <div class="row justify-content-center g-4 service_row">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="service-card" data-title="Web Design"
                         data-desc="I design modern, fast and responsive websites that convert visitors into customers."
                         data-list="Custom Website Design|Responsive Layout|SEO Friendly|Hosting Setup|Maintenance">
@@ -492,7 +511,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="service-card" data-title="Graphic Design"
                         data-desc="Creative graphic designs that build strong brand identity and visual impact."
                         data-list="Logo Design|Brand Identity|Social Media Design|Print Design">
@@ -502,7 +522,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="service-card" data-title="UI/UX Design"
                         data-desc="User-focused UI/UX designs for better experience and higher engagement."
                         data-list="User Research|Wireframing|UI Design|UX Strategy|Prototyping">
@@ -553,7 +574,8 @@
             <!-- Grid -->
             <div class="row g-4 portfolio-grid">
 
-                <div class="col-lg-4 col-md-6 portfolio-item web">
+                <div class="col-lg-4 col-md-6 portfolio-item web"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?1" alt="">
                         <div class="portfolio-info">
@@ -567,7 +589,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item web">
+                <div class="col-lg-4 col-md-6 portfolio-item web"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?2" alt="">
                         <div class="portfolio-info">
@@ -581,7 +604,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item ui">
+                <div class="col-lg-4 col-md-6 portfolio-item ui"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?3" alt="">
 
@@ -596,7 +620,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item ui">
+                <div class="col-lg-4 col-md-6 portfolio-item ui" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?4" alt="">
                         <div class="portfolio-info">
@@ -611,7 +636,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item photoshop">
+                <div class="col-lg-4 col-md-6 portfolio-item photoshop"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?5" alt="">
                         <div class="portfolio-info">
@@ -625,7 +651,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item template">
+                <div class="col-lg-4 col-md-6 portfolio-item template"data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                     <div class="portfolio-card">
                         <img src="https://picsum.photos/600/400?7" alt="">
                         <div class="portfolio-info">
@@ -652,10 +679,13 @@
     <section class="testimonial-section" id="testimonials">
         <div class="container text-center">
 
-            <h2 class="test-title">Awesome Clients</h2>
-            <p class="test-sub">Words From My Clients</p>
+            <h2 class="test-title" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">Awesome Clients</h2>
+            <p class="test-sub" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">Words From My Clients</p>
 
-            <div class="testimonial-wrapper">
+            <div class="testimonial-wrapper" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
 
                 <!-- Left Arrow -->
                 <button class="test-arrow left" id="prevTest">
@@ -727,19 +757,20 @@
 
                 <!-- LEFT INFO -->
                 <div class="col-lg-4 col-md-5">
-                    <div class="contact-left">
+                    <div class="contact-left" >
                         <h6 class="contact-label">CONTACT INFO</h6>
 
-                        <div class="contact-item">
+                        <div class="contact-item" data-aos="fade-right" data-aos-duration="1200"
+            data-aos-delay="0">
                             <div class="icon-box">
                                 <i class="ri-mail-line"></i>
                             </div>
                             <div class="text">
                                 <span>E-MAIL</span>
                                 <p>
-                                   
-                                        mq16520@gmail.com
-                                   
+
+                                    mq16520@gmail.com
+
                                 </p>
                                 <a href="mailto:mq16520@gmail.com">
                                     Send <i class="ri-arrow-right-up-line"></i>
@@ -748,16 +779,17 @@
                             </div>
                         </div>
 
-                        <div class="contact-item">
+                        <div class="contact-item" data-aos="fade-right" data-aos-duration="1200"
+            data-aos-delay="0">
                             <div class="icon-box">
                                 <i class="ri-whatsapp-line"></i>
                             </div>
                             <div class="text">
                                 <span>WHATSAPP</span>
                                 <p>
-                                 
-                                        +92 313 4640538
-                                    
+
+                                    +92 313 4640538
+
                                 </p>
                                 <a href="https://wa.me/923134640538" target="_blank">
                                     Send <i class="ri-arrow-right-up-line"></i>
@@ -766,13 +798,14 @@
                             </div>
                         </div>
 
-                        <div class="contact-item">
+                        <div class="contact-item" data-aos="fade-right" data-aos-duration="1200"
+            data-aos-delay="0">
                             <div class="icon-box">
                                 <i class="ri-messenger-line"></i>
                             </div>
                             <div class="text">
                                 <span>MESSENGER</span>
-                                <p>Sue.Ayers-fb123</p>
+                                <p>Sue.qasim-fb123</p>
                                 <a href="#">Send <i class="ri-arrow-right-up-line"></i></a>
                             </div>
                         </div>
@@ -780,9 +813,12 @@
                         <h6 class="contact-label mt-4">SOCIAL INFO</h6>
 
                         <div class="social-icons">
-                            <a href="#"><i class="ri-facebook-fill"></i></a>
-                            <a href="https://x.com/shadow_16520" target="_blank"><i class="ri-twitter-x-line"></i></a>
-                            <a href="https://www.linkedin.com/in/muhammad-qasim-a8939b377/" target="_blank">
+                            <a href="#" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0"><i class="ri-facebook-fill"></i></a>
+                            <a href="https://x.com/shadow_16520" target="_blank" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0"><i class="ri-twitter-x-line"></i></a>
+                            <a href="https://www.linkedin.com/in/muhammad-qasim-a8939b377/" target="_blank" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                                 <i class="ri-linkedin-fill"></i>
                             </a>
 
@@ -792,7 +828,8 @@
 
                 <!-- RIGHT FORM -->
                 <div class="col-lg-8 col-md-7">
-                    <div class="contact-form">
+                    <div class="contact-form" data-aos="zoom-in" data-aos-duration="1200"
+            data-aos-delay="0">
                         <h4>LET'S WORK <span>TOGETHER.</span></h4>
                         <p>
                             Please fill out the form to contact me or call between
@@ -855,6 +892,17 @@
 
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init({
+    once: true,
+    offset: 120,
+    duration: 1000,
+    easing: 'ease-out-cubic'
+  });
+</script>
 
 
 
