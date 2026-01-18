@@ -29,6 +29,7 @@ html {
     padding: 15px 40px;
     background: #F7F9FB;
     transition: 0.4s;
+    z-index: 1;
 }
 
 /* Logo */
@@ -2119,3 +2120,4 @@ overflow: hidden;}
   z-index: 5;
   pointer-events: none;
 }
+
